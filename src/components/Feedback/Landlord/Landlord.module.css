@@ -1,0 +1,44 @@
+.formStyle {
+  width: 80%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.feedbackFormStyle {
+  padding: 15px 35px 15px 35px;
+}
+.section1 span {
+  background: #2a88ad;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  font-size: 16px;
+  margin-left: -10px;
+  color: #fff;
+  margin-top: -3px;
+  font-weight: 500;
+}
+
+.Details {
+  font-weight: 600;
+  font-size: 20px;
+  color: #2a88ad;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+.FeedbackHeading h3 {
+  background: #2a88ad;
+  padding: 20px 30px 15px 30px;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #257c9e;
+}
+
+.formStyle form label {
+  color: #257c9e;
+  font-weight: 600;
+}

@@ -1,0 +1,36 @@
+.bgv img {
+  height: 200px;
+  width: 220px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background:  #0e386a;
+}
+
+.routes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+a {
+  margin-right: 15px;
+  color: #fff;
+}
+
+.btn-primary{
+  background: linear-gradient(to bottom, #fdb017 0%, #fdb017 50%, #f8a602 50%, #f8a602 100%) !important;
+  font-size: 1.4em !important;
+  font-family: 'pt_sansbold', Arial, sans-serif !important;
+
+}
