@@ -112,7 +112,6 @@ const TenantSearch = () => {
                   <React.Fragment>
                     <tr>
                       <th>Tenant Name</th>
-                      <th>{isPhone ? `Phone Number` : `CSR Number`}</th>
                       <th>Username</th>
                       <th>Username</th>
                     </tr>
