@@ -1,0 +1,9 @@
+.home-page-banner{
+    background: url('https://homelet.co.uk/homelet/img/bg-mobile-splash-tile.png') center -50px repeat-x;
+  }
+  .home-page{
+    background-image: url("https://homelet.co.uk/homelet/img/default-splash-2.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 600px;
+  }

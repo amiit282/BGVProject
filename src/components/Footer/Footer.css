@@ -1,0 +1,16 @@
+.prefooter.banner-bg{
+    background: transparent url('https:/homelet.co.uk/homelet/img/page-prefooter-banner-bg.png') center bottom repeat-x;
+    
+}
+
+.prefooter .container {
+    text-align: center;
+    min-height: 310px;
+}
+
+.copyrights{
+    color: #fff;
+    font-family: "pt_sansbold', Arial, sans-serif";
+    text-align: right;
+    margin-right: 10px;;
+}
