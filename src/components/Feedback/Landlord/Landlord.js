@@ -5,8 +5,6 @@ import { FeebackData } from '../../../Model/FeedBackModel';
 import styles from './Landlord.module.css';
 import { ValidationSchema } from './Validation';
 
-import * as yup from 'yup';
-
 const Landlord = (props) => {
   const [status, setStatus] = useState(0);
   const [loading, updateLoading] = useState(false);
@@ -60,7 +58,7 @@ const Landlord = (props) => {
       console.log('Input Values: ', values);
       console.log('Feedback Data: ', FeebackData);
       updateLoading(true);
-      Axios.post('http://localhost:3001/Feedback', FeebackData)
+      Axios.post('http://localhost:5000/renantfb_submission/save', FeebackData)
         .then((response) => {
           console.log(response.status);
           setTimeout(() => {
