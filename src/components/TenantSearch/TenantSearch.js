@@ -25,9 +25,9 @@ class TenantSearch extends Component {
         data: this.state.searchParam,
       }).then((response) => {
         const loadingData = [];
-        for (const data of JSON.parse(JSON.stringify(response.data))) {
-          loadingData.push(data);
-        }
+
+        loadingData.push(response.data);
+
         this.setState({ ...this.state, tenantData: loadingData });
         this.setState({ isFetching: true });
       });
@@ -38,9 +38,9 @@ class TenantSearch extends Component {
         data: this.state.searchParam,
       }).then((response) => {
         const loadingData = [];
-        for (const data of JSON.parse(JSON.stringify(response.data))) {
-          loadingData.push(data);
-        }
+
+        loadingData.push(response.data);
+
         this.setState({ ...this.state, tenantData: loadingData });
         this.setState({ isFetching: true });
       });

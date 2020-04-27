@@ -78,7 +78,7 @@ const Landlord = (props) => {
   });
 
   return (
-    <div>
+    <div className={styles.LandLordBody}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-2"></div>
